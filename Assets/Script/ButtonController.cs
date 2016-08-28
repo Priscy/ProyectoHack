@@ -40,6 +40,11 @@ public class ButtonController : MonoBehaviour {
 		} else if (nextScreen == ScreenToGo.AR_SCREEN) {
 			Application.LoadLevel("0.2AR");
 		}
+
+		if (previousScreen == ScreenToGo.PLAYERS) {
+			deactivate.SetActive (false);
+			activate.SetActive (true);
+		}
 	}
 
 }
