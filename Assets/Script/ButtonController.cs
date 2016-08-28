@@ -41,7 +41,7 @@ public class ButtonController : MonoBehaviour {
 			Application.LoadLevel("0.2AR");
 		}
 
-		if (previousScreen == ScreenToGo.PLAYERS) {
+		if (previousScreen == ScreenToGo.START) {
 			deactivate.SetActive (false);
 			activate.SetActive (true);
 		}
