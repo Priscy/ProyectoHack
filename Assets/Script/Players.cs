@@ -1,11 +1,14 @@
-﻿/*
+﻿
 using UnityEngine;
 using System.Collections;
 
 public class Players : MonoBehaviour {
 
-	public UIInput userInput;
-	public static string player;
+	public UIInput player1_input;
+	public UIInput player2_input;
+
+	public string Player1;
+	public string Player2;
 
 	// Use this for initialization
 	void Start () {
@@ -14,7 +17,11 @@ public class Players : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		string player = userInput.GetComponent<UIInput>.text ();
+		
+	}
+
+	void OnClick(){
+		Player1 = player1_input.GetComponent<UIInput> ().text;
+		Player2 = player2_input.GetComponent<UIInput> ().text;
 	}
 }
-*/
