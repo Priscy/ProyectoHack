@@ -1,21 +1,20 @@
-﻿using UnityEngine;
+﻿/*
+using UnityEngine;
 using System.Collections;
 
 public class Players : MonoBehaviour {
 
-	public Transform player1_input;
-	public Transform player2_input;
-
-	string Player1 = player1_input.GetComponent<UIInput>.text();
-	string Player2 = player2_input.GetComponent<UIInput>.text();
+	public UIInput userInput;
+	public static string player;
 
 	// Use this for initialization
 	void Start () {
-	
+		
 	}
 
 	// Update is called once per frame
 	void Update () {
-		
+		string player = userInput.GetComponent<UIInput>.text ();
 	}
 }
+*/
